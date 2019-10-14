@@ -17,12 +17,7 @@
   </head>
   <body>
     <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="Start()"></div>
-        <div class="title">ΦΚΤ Pong</div>
-      </div>
+      <div id="unityContainer" style="width: 1920px; height: 1080px"></div>
     </div>
   </body>
 </html>
