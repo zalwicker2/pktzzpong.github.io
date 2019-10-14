@@ -9,10 +9,8 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      function Start() {
 		var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Site.json", {onProgress: UnityProgress}); 
 		unityInstance.SetFullscreen(1);
-	  }
     </script>
   </head>
   <body>
