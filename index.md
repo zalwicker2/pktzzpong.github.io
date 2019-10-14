@@ -9,7 +9,10 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Site.json", {onProgress: UnityProgress});
+      function Start() {
+		var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Site.json", {onProgress: UnityProgress}); 
+		unityInstance.SetFullscreen(1);
+	  }
     </script>
   </head>
   <body>
@@ -17,7 +20,7 @@
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="fullscreen" onclick="Start"></div>
         <div class="title">ΦΚΤ Pong</div>
       </div>
     </div>
