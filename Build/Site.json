@@ -1,7 +1,7 @@
 {
 "companyName": "icanStudios",
 "productName": "ΦΚΤ Pong",
-"productVersion": "0.4",
+"productVersion": "0.5",
 "dataUrl": "Site.data.unityweb",
 "wasmCodeUrl": "Site.wasm.code.unityweb",
 "wasmFrameworkUrl": "Site.wasm.framework.unityweb",
